@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/Heland.ttf') format("truetype");;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url('../fonts/Banana.ttf') format("truetype");;
+}
+
+div
+{
+    animation-duration: 50s;
+}
+
+body
+{
+    background-color: #8fc7ff;
+}
+
+p {
+    font-family: MySecondFont;
+    font-size: 1.2vw;
+}
+.container 
+{
+    width: 40%;
+}
+
+.card
+{
+    background-image: url("");
+    animation-timing-function: ease;
+}
+
+.w3-animate-top
+{
+    animation-timing-function: ease;
+}
+
+.card-body
+{
+    font-size: big;
+}
+
+@media screen and (max-width: 1000px) {
+    .container 
+    {
+        width: 70%;
+    }
+    .card-body
+    {
+        font-size: smaller;
+    }
+}
+
+.latin
+{
+    font-family: myFirstFont;
+    font-size: 6vw;
+}
